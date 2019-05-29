@@ -312,7 +312,7 @@
 
                 }
             },
-            venderMaterial(data){
+            venderMaterial( ){
                 let vm = this;
                 vm.overlay = true;
                 vm.overlayText = "Vendiendo Material ... no me dio tiempo de terminar esto ";
@@ -433,6 +433,9 @@
         mounted() {
             window.vm = this;
             this.getExistenciaAlmacen();
+
+
+
         }
     }
 </script>
